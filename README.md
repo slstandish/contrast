@@ -1,15 +1,17 @@
 ---
 title: "About"
 permalink: "/about/"
+layout: page
 ---
 
 ## Installation
 
-Just fork the repo and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
 
 ## Features
 
  - supports dark mode on macOS Mojave
+ - optional sidebar
  - MathJax support
  - no external ressources
  - included archive page
@@ -21,6 +23,7 @@ Just fork the repo and adjust the `_config.yml` to use with [Github Pages](https
 
 ## Based on
 
+- [Hyde](https://github.com/poole/hyde)
 - [Minima](https://github.com/jekyll/minima)
 - [Lagrange](https://github.com/LeNPaul/Lagrange)
 - [Font Awesome](http://fontawesome.io/)
@@ -29,10 +32,10 @@ Just fork the repo and adjust the `_config.yml` to use with [Github Pages](https
 
 ## Installation (jekyll-remote-theme method)
 
-You can use this theme with the `jekyll-remote-theme` plugin. Just create an empty repo, add `index.html` and `archive.html` files (they can be empty but need to contain front matter) and add this to your `_config.yml`:
+You can use this theme with the `jekyll-remote-theme` plugin. Just create an empty repo, copy over the `index.html` file and add this to your `_config.yml`:
 
 ```yaml
-remote_theme: niklasbuschmann/contrast@v1.0
+remote_theme: niklasbuschmann/contrast@v2.10
 
 plugins:
   - jekyll-remote-theme
@@ -44,11 +47,7 @@ plugins:
 
 ## Screenshots
 
-<div class="large" markdown="1">
+![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png)
 
-![screenshot](https://user-images.githubusercontent.com/4943215/61584980-d5d94f00-ab51-11e9-843a-af4ea884d4c5.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/61584981-d5d94f00-ab51-11e9-8755-92bf20205879.png)
-
-</div>
+![screenshot](https://user-images.githubusercontent.com/4943215/73125195-5fa42200-3fa4-11ea-89f8-d09c1d6fe252.png)
 
